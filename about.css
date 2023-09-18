@@ -1,0 +1,865 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.main{
+    position: relative;
+    border: 1px solid black;
+    width: 99.8%;
+    height: 1750px;
+    background-color: rgb(34, 36, 36);
+}
+.navbar{
+    position: relative;
+    display: flex;
+    border: 2px solid black;
+    background-color: black;
+    width: 99.6%;
+    height: 50px;
+    
+}
+
+.sidebar {
+    position: absolute;
+    left: 2%;
+    color: gray;
+    font-size: 30px;
+    top: 10px;
+    display: block;
+}
+
+.sidebar:hover {
+    transform: scale(1.3);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+    color: rgb(168, 123, 10);
+}
+
+.sideborder{
+    position: relative;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    width: 270px;
+    height: 400px;
+    z-index: 1;
+    top: 50px;
+    background-color: black;
+    display: none;
+}
+
+.sidename{
+    position: absolute;
+    color: rgb(168, 123, 10);
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    top: 10px;
+    left: 20px;
+}
+
+.sidehome{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 130px;
+    /* font-weight: bolder; */
+    left: 80px;
+    /* text-decoration-line: overline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px; */
+}
+.sidehome:hover{
+    color: rgb(168, 123, 10);
+     transform: scale(1.15);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+}
+
+.sideabout{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 190px;
+    /* font-weight: bolder; */
+    left: 80px;
+    /* text-decoration-line: overline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px */
+}
+
+.sideabout:hover{
+    color: rgb(168, 123, 10);
+     transform: scale(1.15);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+}
+
+.sideresume{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 250px;
+    /* font-weight: bolder; */
+    left: 80px;
+    /* text-decoration-line: overline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px */
+}
+
+.sideresume:hover{
+    color: rgb(168, 123, 10);
+     transform: scale(1.15);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+}
+
+.sidecerts{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 310px;
+    /* font-weight: bolder; */
+    left: 30px;
+    /* text-decoration-line: overline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px */
+}
+
+.sidecerts:hover{
+    color: rgb(168, 123, 10);
+     transform: scale(1.15);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+}
+
+
+.close-btn{
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(168, 123, 10);
+    left: 220px;
+    top: 90px;
+}
+
+.sideborder{
+    display: none;
+}
+
+.sidebar{
+    display: none;
+}
+
+
+.borname{
+    position: relative;
+    top: -50%;
+    /* left: 88%; */
+    left: 4.5%;
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 200px;
+    z-index: 1;
+    /* margin-left: 450px; */
+}
+
+.navname{
+    position: absolute;
+    color: rgb(168, 123, 10);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    left: 2%;
+    top: 10px;
+}
+.home{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    left: 37%;
+    top: 10px;
+}
+
+.home:hover{
+    border: 3px solid rgb(168, 123, 10);
+    color: rgb(168, 123, 10);
+    height: 50px;
+    width: 100px;
+    margin-left: -20px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-top: -5px;
+    border-bottom: unset;
+    border-left: unset;
+    border-right: unset;
+    transform: scale(1.2);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+}
+
+
+.about{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    left: 49%;
+    top: 10px;
+}
+
+.about:hover{
+    border: 3px solid rgb(168, 123, 10);
+    color: rgb(168, 123, 10);
+    height: 50px;
+    width: 110px;
+    margin-left: -20px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-top: -5px;
+    border-bottom: unset;
+    border-left: unset;
+    border-right: unset;
+    transform: scale(1.2);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+}
+
+.resume{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    left: 62%;
+    top: 10px;
+}
+
+.resume:hover{
+    border: 3px solid rgb(168, 123, 10);
+    color: rgb(168, 123, 10);
+    height: 50px;
+    width: 120px;
+    margin-left: -20px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-top: -5px;
+    border-bottom: unset;
+    border-left: unset;
+    border-right: unset;
+    transform: scale(1.2);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+}
+
+.certs{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    left: 77%;
+    top: 10px;
+}
+
+.certs:hover{
+    border: 3px solid rgb(168, 123, 10);
+    color: rgb(168, 123, 10);
+    height: 50px;
+    width: 200px;
+    margin-left: -20px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-top: -5px;
+    border-bottom: unset;
+    border-left: unset;
+    border-right: unset;
+    transform: scale(1.2);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+}
+
+.rightborder{
+    position: absolute;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(168, 123, 10);
+    width: 190px;
+    height: 105%;
+    top: 51.5px;
+}
+
+.leftborder{
+    position: absolute;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(168, 123, 10);
+    width: 8%;
+    height: 85%;
+    left: 92%;
+    top: 51.5px;
+}
+.bord {
+    position: relative;
+    margin-top: 80px;
+    left: 20%;
+    border: 1px solid;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    border-color: black;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.twitter {
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.twitter:hover {
+    transform: scale(1.3);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+    color: rgb(168, 123, 10);
+}
+
+.facebook {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.facebook:hover {
+    transform: scale(1.3);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+    color: rgb(168, 123, 10);
+}
+
+.instagram {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.instagram:hover {
+    transform: scale(1.3);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+    color: rgb(168, 123, 10);
+}
+
+.linkedin {
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.linkedin:hover {
+    transform: scale(1.3);
+    transition: opacity 0.5s,
+        transform 0.4s,
+        color 0.4s;
+    color: rgb(168, 123, 10);
+}
+
+.auto{
+    position: absolute;
+    font-size: 40px;
+    font-family: cursive;
+    left: 40%;
+    top: 80px;
+    color: white;
+}
+.childhead{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 20%;
+    top: 130px;
+    color: white;
+}
+
+.childtext{
+    position: absolute;
+    /* border: 1px solid wheat; */
+    width: 65%;
+    font-size: large;
+    color: yellow;
+    left: 24%;
+    top: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.eduhead{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 20%;
+    top: 380px;
+    color: white;
+}
+
+.edutext{
+    position: absolute;
+    /* border: 1px solid wheat; */
+    width: 65%;
+    font-size: large;
+    color: yellow;
+    left: 24%;
+    top: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vochead{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 20%;
+    top: 630px;
+    color: white; 
+}
+
+.voctext{
+    position: absolute;
+    /* border: 1px solid wheat; */
+    width: 65%;
+    font-size: large;
+    color: yellow;
+    left: 24%;
+    top: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.occuphead{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 20%;
+    top: 880px;
+    color: white; 
+}
+
+.occuptext{
+    position: absolute;
+    /* border: 1px solid wheat; */
+    width: 65%;
+    font-size: large;
+    color: yellow;
+    left: 24%;
+    top: 950px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.servhead{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 20%;
+    top: 1130px;
+    color: white; 
+}
+
+.servtext{
+    position: absolute;
+    /* border: 1px solid wheat; */
+    width: 65%;
+    font-size: large;
+    color: yellow;
+    left: 24%;
+    top: 1200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.last {
+    position: relative;
+    /* position: absolute; */
+    border: 1px solid white;
+    width: 99.8%;
+    top: 85%;
+    height: 280px;
+    background-color: rgb(37, 37, 7);
+}
+
+.footer {
+    display: flex;
+}
+
+/* .footerpic {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    left: 40%;
+    top: 30px;
+} */
+
+.contact {
+    position: absolute;
+    left: 7%;
+    top: 80px;
+
+}
+
+.contacttext {
+    font-size: larger;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.social {
+    position: absolute;
+    left: 45%;
+    top: 80px;
+
+}
+
+.socialtext {
+    font-size: larger;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.tweet {
+    position: relative;
+    top: -10px;
+    color: white;
+}
+
+.insta {
+    position: absolute;
+    top: 98px;
+    color: white;
+}
+
+.faceb {
+    position: absolute;
+    top: 128px;
+    color: white;
+}
+
+.others {
+    position: absolute;
+    left: 80%;
+    top: 80px;
+    color: white;
+}
+
+.otherstext {
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.privacy {
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+    font-size: 20px;
+    color: white;
+}
+
+.abouts {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    top: -3px;
+    color: white;
+}
+
+.hired{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    top: 0px;
+    color: white;
+}
+
+
+.number {
+    position: absolute;
+    top: 70px;
+    color: white;
+}
+
+.gmail {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    color: white;
+}
+
+.location {
+    position: relative;
+    top: 30px;
+    color: white;
+}
+
+.copyright{
+    position: relative;
+    color: white;
+    left: 35%;
+    top: 250px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:955px){
+    .main{
+        height: 2320px;
+        overflow: hidden;
+        width: 99.7%;
+
+    }
+    .home ,.about ,.resume, .certs{
+        display: none;
+    }
+    .sidebar{
+        display: block;
+    }
+    .sideborder{
+        /* opacity: 0; */
+        display: none;
+    }
+
+    .sideclose{
+        display: block;
+    }
+
+   
+    .showsidebar{
+      transform: translate(-101%);
+    }
+    .borname {
+
+        position: absolute;
+        top: -50%;
+        /* border: 1px solid white; */
+        left: 70%;
+        height: 50px;
+        width: 180px;
+
+    }
+
+    .navname {
+        left: 1%;
+    }
+
+     .rightborder{
+        width: 8%;
+     }
+
+     .leftborder{
+        width: 9%;
+     }
+
+     .auto{
+        left: 30%;
+     }
+
+     .eduhead{
+        top: 450px;
+     }
+     .edutext{
+        top: 520px;
+     }
+     .vochead{
+        top: 800px;
+     }
+     .voctext{
+        top: 880px;
+     }
+
+     .occuphead{
+        top: 1160px;
+     }
+
+     .occuptext{
+        top: 1250px;
+     }
+
+     .servhead{
+        top: 1500px;
+     }
+
+     .servtext{
+        top: 1600px;
+     }
+
+     .last{
+        display: block;
+        top: 81%;
+        height: 450px;
+        width: 99.8%;
+    }
+
+    .aboutme{
+        display: block;
+    }
+    .expetext{
+        left: 10%;
+    }
+
+   
+
+    .contact{
+        left: 5%;
+    }
+    .social{
+        left: 60%;
+    }
+
+    .others{
+        left: 40%;
+        top: 200px;
+    }
+
+    .copyright{
+        left: 20%;
+        top: 370px;
+    }
+}
+
+@media screen and (max-width:635px){
+
+    .main{
+        height: 4150px;
+    }
+    .borname {
+        width: 60%;
+        left: 48%;
+        /* border: 1px solid red; */
+    }
+
+    .navname {
+        left: -2%;
+    }
+
+   .leftborder{
+    width: 100px;
+    left: 85%;
+   }
+
+   .bord{
+    left: 5%;
+   }
+   
+   .auto{
+    left: 7%;
+    font-size: 28px;
+   }
+
+   .childhead{
+    left: 11%;
+   }
+   
+   .childtext{
+     top: 200px;
+     left: 15%;
+   }
+
+   .eduhead{
+    left: 11%;
+    top: 700px;
+   }
+
+   .edutext{
+   top: 800px;
+   
+   left: 15%;
+   }
+
+   .vochead{
+    top: 1400px;
+    left: 11%;
+   }
+
+   .voctext{
+    top: 1500px;
+    left: 15%;
+   }
+
+   .occuphead{
+    top: 2100px;
+    left: 11%;
+
+   }
+
+   .occuptext{
+      top: 2200px;
+      left: 15%;
+   }
+
+   .servhead{
+    top: 2800px;
+    left: 11%;
+
+
+   }
+
+   .servtext{
+    top: 2900px;
+    left: 15%;
+
+
+   }
+   .last{
+    height: 620px;
+    top: 85%;
+}
+.others{
+    top: 400px;
+    left: 5%;
+}
+.social{
+    top: 230px;
+    left: 5%;
+}
+
+.contact{
+   
+}
+.copyright{
+    top: 570px;
+    left: 1%;
+}
+
+
+
+}
+
+
+
+
+
+   
+
+    
+
+
+
+
+
+
